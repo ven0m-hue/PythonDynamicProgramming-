@@ -23,7 +23,6 @@ def countConstruct(target, wordBank):
 # space = O(m**2)   
      
 #Memoization
-
 def countConstruct(target, wordBank, mem = {}):
     #base case 
     if target in mem: return mem[target]

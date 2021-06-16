@@ -58,4 +58,5 @@ def allConstruct(target, wordBank):
 # time complexity = O(n*m**m)
 # space = O(m**m) 
 
+
 allConstruct("purple", ["purp", "p", "ur", "le", "purpl"])

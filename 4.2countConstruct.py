@@ -67,4 +67,5 @@ def countConstruct(target, wordBank):
 # time complexity = O(n*m*m)
 # space = O(m)             
 
+
 countConstruct("purple", ["purp", "p", "ur", "le", "purpl"])

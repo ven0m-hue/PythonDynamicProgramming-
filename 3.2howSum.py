@@ -1,6 +1,7 @@
 #### 3.2 HowSum Problem
 #Brute Force
 
+
 def howSum(targetSum, numbers):
     #base case 
     if targetSum == 0: return []
