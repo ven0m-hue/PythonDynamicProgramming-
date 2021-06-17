@@ -39,7 +39,7 @@ def allConstruct(target, wordBank, mem={}):
     mem[target] = result
     return mem[target]
 
-allConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e","eee","eeeeeeeeee","eeeeeeeeeeee","e"])
+print(allConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e","eee","eeeeeeeeee","eeeeeeeeeeee","e"]))
 
 
 #Tabulation
@@ -59,4 +59,4 @@ def allConstruct(target, wordBank):
 # space = O(m**m) 
 
 
-allConstruct("purple", ["purp", "p", "ur", "le", "purpl"])
+print(allConstruct("purple", ["purp", "p", "ur", "le", "purpl"]))
