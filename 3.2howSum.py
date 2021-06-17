@@ -15,7 +15,7 @@ def howSum(targetSum, numbers):
 # time complexity = O(n**m * m)
 # space = O(m)
 
-howSum(300,[7,14])
+print(howSum(300,[7,14]))
 
 #Memoization
 
@@ -52,4 +52,4 @@ def howSum(targetSum, llist):
 # t = O(n*m**2)
 # s = O(m**2)           
 
-howSum(8,[5,3,2])
+print(howSum(8,[5,3,2]))
