@@ -19,7 +19,7 @@ def bestSum(targetSum, numbers):
 # time complexity = O(n**m * m)
 # space = O(m)
 
-bestSum(100,[1,2,5,25])
+print(bestSum(100,[1,2,5,25]))
 
 
 #Memoization
@@ -82,4 +82,4 @@ def bestSum(targetSum, llist):
 # t = O(n*m**2)
 # s = O(m**2)           
 
-bestSum(8,[7,8,3,1])
+print(bestSum(8,[7,8,3,1]))
