@@ -35,7 +35,7 @@ def canSum(targetSum, llist, mem = {}):
 # t = O(n)
 # s = O(n)
 
-canSum(300,[7,14])
+print(canSum(300,[7,14]))
 
 #Tabulation
 
@@ -52,4 +52,4 @@ def canSum(targetSum, llist):
 # t = O(n*m)
 # s = O(m)           
 
-canSum(7,[5,4,3])
+print(canSum(7,[5,4,3]))
