@@ -16,7 +16,7 @@ def fib(n, mem = {}): # store all the previously found sub solution into a memor
 #T = O(n)
 #S = O(n)
 
-
+print(fib(50))
 #Tabulation
 
 def fib(n):
@@ -29,6 +29,8 @@ def fib(n):
 # t = O(N)
 # s = O(N)
 
+print(fib(5000))
+
 def fib(n):
     list = [0]*(n+1)  # Construct a table and init with some deafult vlaues
     list[1] = 1   # Seed value
@@ -36,5 +38,6 @@ def fib(n):
     for i in range(1,n):
         list[i+1] += list[i] + list[i-1]
     return list[n]
+print(fib(500))
 # t = O(N*M)
 # s = O(M)
