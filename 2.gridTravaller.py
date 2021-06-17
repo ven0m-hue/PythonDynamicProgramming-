@@ -9,6 +9,8 @@ def gridTravaller(n,m):
 # t = O(2^n+m)
 # s = O(N)
 
+print(gridTravaller(1,1))
+
 #Memoization 
 # Using the dp approch 
 # using memoization 
@@ -38,5 +40,5 @@ def gridTravaller(m,n):
 # t = O(m*n)
 # s = O(m*n)
 
-gridTravaller(18,18)
+print(gridTravaller(18,18))
 
