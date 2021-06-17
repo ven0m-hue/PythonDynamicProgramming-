@@ -46,8 +46,8 @@ def countConstruct(target, wordBank, mem = {}):
 # time complexity = O(n**m * m)
 # space = O(m**2)        
 
-countConstruct("purple", ["purp", "p", "ur", "le", "purpl"])
-countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e","eee","eeeeeeeeee","eeeeeeeeeeee","e"])
+print(countConstruct("purple", ["purp", "p", "ur", "le", "purpl"]))
+print(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e","eee","eeeeeeeeee","eeeeeeeeeeee","e"]))
 
 #Tabulation
 
@@ -66,6 +66,6 @@ def countConstruct(target, wordBank):
 # time complexity = O(n*m*m)
 # space = O(m)             
 
-countConstruct("purple", ["purp", "p", "ur", "le", "purpl"])
+print(countConstruct("purple", ["purp", "p", "ur", "le", "purpl"]))
 
 
